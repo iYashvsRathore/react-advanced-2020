@@ -37,7 +37,7 @@ const ControlledInputs = () => {
           <label htmlFor="email">E-Mail : </label>
           <input type="text" id="email" name="email" value={email} onChange={(e) => {setEmail(e.target.value)}}></input>
         </div>
-
+        
         <button type="submit">Add Person</button>
       </form>
     </article>
